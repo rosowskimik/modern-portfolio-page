@@ -146,10 +146,10 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #eece1a;
-        transition: all 0.5s ease-out; }
+        color: #eece1a; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -267,5 +267,7 @@ main {
     grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
-  body#main h1 {
-    margin-top: 10vh; } }
+  main#home h1 {
+    margin-top: 0; }
+  h1.lg-heading {
+    font-size: 4.3rem; } }
